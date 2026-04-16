@@ -30,7 +30,6 @@ button{
 .header-middle{
   display: flex;
   align-items: center;
-  gap: 0.5rem;
   flex: 1;
   max-width: 732px;
   height: 40px;
@@ -43,16 +42,18 @@ button{
   gap: 0.5rem;
 }
 .search-input{
-  background: rgb(15, 15, 15);
+  background: transparent;  
   width: 100%;
-  max-width: 484px;
-  height: 24px;
-  border-color: silver;
-  border-width: 0.5px;
+  height: 100%;
   color: white;
+  border: none;
+  outline: none;
   min-width: 0;
 }
 @media(max-width: 650px){
+  .search-box{
+    display: none;
+  }
   .search-input{
     display: none;
   }
@@ -67,16 +68,10 @@ button{
   .bell-logo{
     display: none;
   }
-  /* header{
-    padding: 0.6rem ;
-  } */
 }
 @media(max-width: 400px){
   .create-logo{
     display: none;
-  } 
-  .bell-logo{
-    height: 20px;
   }
 }
 .spy-logo{
@@ -114,4 +109,17 @@ button{
 .menu-logo{
   height: 24px;
   width: 24px;
+}
+.search-box{
+  height: 40px;
+  width: 100%;
+  max-width: 536px;
+  border:1px solid silver;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 12px;
+  background: rgb(15, 15, 16);
+  flex: 1;
 }
