@@ -1,0 +1,125 @@
+header{
+  background-color: rgb(15, 15, 15);
+  display: flex;
+  height: 56px;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon {
+  filter: brightness(0) invert(1);
+}
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.create-button-background{
+  background-color: rgb(15, 15, 15);
+}
+.header-left{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 56px;
+  width: 169px;
+}
+
+.header-middle{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 732px;
+  height: 40px;
+  margin-left: 2rem;
+}
+
+.header-right{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.search-input{
+  background: transparent;  
+  width: 100%;
+  height: 100%;
+  color: white;
+  border: none;
+  outline: none;
+  min-width: 0;
+}
+@media(max-width: 650px){
+  .search-box{
+    display: none;
+  }
+  .search-input{
+    display: none;
+  }
+  .keyboard-logo{
+    display: none;
+  }
+}
+@media(max-width: 430px){
+  .mic-logo{
+    display: none;
+  }
+  .bell-logo{
+    display: none;
+  }
+}
+@media(max-width: 400px){
+  .create-logo{
+    display: none;
+  }
+}
+.spy-logo{
+  width: 24px;
+  height: 24px;
+}
+.profile-pic{
+  height: 32px;
+  width: 32px;
+}
+.sticky-header{
+  position: sticky;
+  top:0;
+}
+.bell-logo{
+  height: 24px;
+  width: 24px;
+}
+.mic-logo{
+  width: 30px;
+  height: 30px;
+}
+.keyboard-logo{
+  height: 11px;
+  width: 19px;
+}
+.create-logo{
+  height:36px;
+  width: 95px;
+}
+.youtube-home-logo{
+  height: 20px;
+  width: 93px;
+}
+.menu-logo{
+  height: 24px;
+  width: 24px;
+}
+.search-box{
+  height: 40px;
+  width: 100%;
+  max-width: 536px;
+  border:1px solid silver;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 12px;
+  background: rgb(15, 15, 16);
+  flex: 1;
+}
