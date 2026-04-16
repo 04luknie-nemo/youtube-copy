@@ -1,13 +1,13 @@
 header{
   background-color: rgb(15, 15, 15);
   display: flex;
-  height: 30px;
+  height: 56px;
   padding: 1rem;
   gap: 1rem;
   align-items: center;
   justify-content: space-between;
 }
-.menu-icon {
+.icon {
   filter: brightness(0) invert(1);
 }
 button{
@@ -23,6 +23,8 @@ button{
   display: flex;
   align-items: center;
   gap: 1rem;
+  height: 56px;
+  width: 169px;
 }
 
 .header-middle{
@@ -30,7 +32,9 @@ button{
   align-items: center;
   gap: 0.5rem;
   flex: 1;
-  max-width: 700px;
+  max-width: 732px;
+  height: 40px;
+  margin-left: 2rem;
 }
 
 .header-right{
@@ -41,8 +45,8 @@ button{
 .search-input{
   background: rgb(15, 15, 15);
   width: 100%;
-  max-width: 400px;
-  height: 30px;
+  max-width: 484px;
+  height: 24px;
   border-color: silver;
   border-width: 0.5px;
   color: white;
@@ -63,34 +67,51 @@ button{
   .bell-logo{
     display: none;
   }
-  header{
+  /* header{
     padding: 0.6rem ;
-  }
+  } */
 }
 @media(max-width: 400px){
   .create-logo{
     display: none;
   } 
+  .bell-logo{
+    height: 20px;
+  }
 }
 .spy-logo{
-  height: 30px;
+  width: 24px;
+  height: 24px;
 }
 .profile-pic{
-  height: 30px;
+  height: 32px;
+  width: 32px;
 }
 .sticky-header{
   position: sticky;
   top:0;
 }
 .bell-logo{
-  height: 30px;
+  height: 24px;
+  width: 24px;
 }
 .mic-logo{
+  width: 30px;
   height: 30px;
 }
 .keyboard-logo{
-  height: 15px;
+  height: 11px;
+  width: 19px;
 }
 .create-logo{
-  height:50px;
+  height:36px;
+  width: 95px;
+}
+.youtube-home-logo{
+  height: 20px;
+  width: 93px;
+}
+.menu-logo{
+  height: 24px;
+  width: 24px;
 }
