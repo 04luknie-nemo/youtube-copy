@@ -50,30 +50,7 @@ button{
   outline: none;
   min-width: 0;
 }
-@media(max-width: 650px){
-  .search-box{
-    display: none;
-  }
-  .search-input{
-    display: none;
-  }
-  .keyboard-logo{
-    display: none;
-  }
-}
-@media(max-width: 430px){
-  .mic-logo{
-    display: none;
-  }
-  .bell-logo{
-    display: none;
-  }
-}
-@media(max-width: 400px){
-  .create-logo{
-    display: none;
-  }
-}
+
 .spy-logo{
   width: 24px;
   height: 24px;
@@ -122,4 +99,28 @@ button{
   padding: 0 12px;
   background: rgb(15, 15, 16);
   flex: 1;
+}
+
+@media(max-width: 650px){
+  .keyboard-logo{
+    display: none;
+  }
+}
+
+@media(max-width: 430px){
+  .mic-logo{
+    display: none;
+  }
+  .bell-logo{
+    display: none;
+  }
+}
+
+@media(max-width: 480px){
+  .search-box{
+    display: none;
+  }
+  .search-input{
+    display: none;
+  }
 }
