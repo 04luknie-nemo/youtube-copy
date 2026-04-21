@@ -2,7 +2,9 @@
     margin: 0;
 }
 
-
+.sidebar{
+    grid-area: a;
+}
 
 .sidebar{
     display: flex;
