@@ -1,8 +1,21 @@
-.main {
-   
+.main-grid{
+   margin: 0;
+   padding: 24px 16px 0;
    background-color: var(--bg-dark);
    color: var(--text-white);
-   margin-left: 72px;
-   
+   height: auto;
+   min-width: 0;
+   grid-area: m;
+}
 
+.thumbnail-grid{
+   display: grid;
+   grid-template-columns: 42px 1fr 24px;
+   padding: 1rem 0 0 0;
+   min-width: 0;
+}
+
+.text-info{
+   display: flex;
+   flex-direction: column;
 }
