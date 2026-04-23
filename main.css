@@ -42,3 +42,10 @@
     font-size: 14px;
     margin: 0;
 }
+
+.video-card-stats-dot {
+    color: #aaaaaa;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
