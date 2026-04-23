@@ -15,12 +15,37 @@
    min-width: 0;
    gap: 1rem;
 }
+.shorts-info-grid{
+    display: grid;
+    height: 40px;
+    grid-template-columns: 1fr 30px;
+    padding-top: 10px;
+
+    
+}
 
 .text-info{
    display: flex;
    flex-direction: column;
    font-family: 'Roboto', sans-serif;
    
+   
+}
+.text-shorts{
+    display: flex;
+    color: #F1F1F1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.text-shorts-views{
+    color: #aaaaaa;
+    font-size: 14px;
+    margin: 0;
+    
 }
 
 .thumbnail-icon {
