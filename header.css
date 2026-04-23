@@ -129,10 +129,27 @@ button{
   font-size: 0.9rem;
 }
 
-.youtube-home-logo{
+.youtube-home-logo {
   height: 20px;
   width: 93px;
+  display: flex;
+  flex-direction: column;
 }
+
+.header-left a {
+  display: flex;
+  align-items: flex-end;
+  height: 20px;
+  text-decoration: none;
+}
+
+.header-left a span {
+  display: inline-block;
+  height: 34px;
+  color: gray; 
+  margin-left: 5px;
+}
+
 .menu-logo{
   height: 24px;
   width: 24px;
