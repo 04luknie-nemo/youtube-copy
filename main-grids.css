@@ -103,13 +103,50 @@
 }
 
 .shorts-card {
-  padding: 1rem;
+  padding: 0.5rem;
   margin: 1rem 0;
 }
 
+.dots-icon-short-card{
+  display:flex;
+  justify-content: end;
+  align-items: end;
+  margin: 0;
+}
 .shorts-header {
   display: flex;
   justify-content: space-between;
   gap: 0.5rem;
   padding: 0px 0px 1rem 1rem;
+ 
+}
+.shorts-header-left img {
+  width: 24px;
+  height: 24px;
+}
+.shorts-header text {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+.shorts-header-left{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+.dots-icon{
+    display:flex;
+    height: 24px;
+    width: 24px;
+    
+}
+.shorts-header-text {
+  font-family: 'Roboto', Arial, sans-serif; 
+  font-size: 20px;          
+  font-weight: 700;          
+  color: white;            
+  letter-spacing: -0.2px;   
+  margin: 0;                
 }
