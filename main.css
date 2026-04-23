@@ -55,11 +55,23 @@
 }
 
 .video-card-author {
+    display: flex;
     color: #aaaaaa;
     font-size: 14px;
     margin: 0;
+    align-items: center;
+    gap: 4px;
 }
-
+.video-card-author-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: #979494;
+    color: #302f2f;
+}
 .video-card-stats {
     color: #aaaaaa;
     font-size: 14px;
