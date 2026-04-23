@@ -80,14 +80,55 @@ button{
   width: 30px;
   height: 30px;
 }
+
+.outer-mic-button {
+  border: 1px solid #2b2b2b;
+  background: #2b2b2b;
+  border-radius: 20px;
+  width:43px;
+  height: 43px;
+
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.outer-mic-button:hover {
+  background: #3a3a3a;
+}
 .keyboard-logo{
   height: 11px;
   width: 19px;
 }
-.create-logo{
-  height:36px;
-  width: 95px;
+
+.create-button {
+  display: flex; 
+  align-items: center; 
+  gap: 0.4rem;
+  padding: 0 14px;
+  height: 36px;
+  width: 95px;  
+  background: #2b2b2b;
+  border: 1px solid #3a3a3a;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
 }
+
+.create-button:hover {
+  background: #3a3a3a;
+}
+
+.plus {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-top: -1px;
+}
+
+.label {
+  font-size: 0.9rem;
+}
+
 .youtube-home-logo{
   height: 20px;
   width: 93px;
@@ -120,7 +161,6 @@ button{
   background: rgb(15, 15, 16);
   flex:1;
   margin-right: 1rem;
-
 
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -182,7 +222,7 @@ button{
   }
 }
 @media(max-width: 500px){
-  .create-logo{
+  .create-button{
     display: none;
   }
 }

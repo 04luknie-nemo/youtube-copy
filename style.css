@@ -1,10 +1,6 @@
 :root {
   --bg-dark: hsl(0, 0%, 6%);
   --text-white: hsl(0, 0%, 100%);
-t}
-
-* {
-  box-sizing: border-box;
 }
 
 body{
