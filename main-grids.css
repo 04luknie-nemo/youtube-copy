@@ -108,6 +108,7 @@
 .shorts-card {
   padding: 0.5rem;
   margin: 1rem 0;
+  
 }
 
 .dots-icon-short-card{
@@ -123,8 +124,9 @@
   display: flex;
   justify-content: space-between;
   gap: 0.5rem;
-  padding: 0px 0px 1rem 1rem;
- 
+  padding: 0px 0px 0rem 1rem;
+  
+
 }
 .shorts-header-left img {
   width: 24px;
